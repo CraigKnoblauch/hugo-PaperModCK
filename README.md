@@ -1,3 +1,30 @@
+# Hugo PaperModCK
+
+This is a customisation of [Hugo PaperMod](https://adityatelange.github.io/hugo-PaperMod/). I'm keeping the original README documentation at the end of my additions.
+
+## Keeping in sync with Hugo Papermod
+My customisations are on the custom/main branch. An upstream has been set as the master branch of hugo-PaperMod. To keep this fork in sync with updates from PaperMod, follow this procedure:
+
+```bash
+git fetch upstream
+git checkout custom/main
+git merge upstream/master
+```
+
+Make sure to resolve conflicts manually.
+
+To push local changes:
+
+```bash
+git push origin custom/main
+```
+
+## Changelog
+
+### v0.1.0
+
+- **Minor**: Add kestrel2.png to the left of the title in the header. kestrel2.png is specific to my blog repository. Having this file being hardcoded is technical debt.
+ 
 <h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
 
 <h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>

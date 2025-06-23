@@ -41,7 +41,8 @@
 
 <header class="header">
     <nav class="nav">
-        <div class="logo">
+        <div class="logo" style="display: flex; align-items: center;">
+            <img src="/assets/kestrel2.png" alt="Logo" style="height: 32px; margin-right: 10px;" />
             {{- $label_text := (site.Params.label.text | default site.Title) }}
             {{- if site.Title }}
             <a href="{{ "" | absLangURL }}" accesskey="h" title="{{ $label_text }} (Alt + H)">
