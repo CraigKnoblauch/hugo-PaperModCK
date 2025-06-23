@@ -21,6 +21,10 @@ git push origin custom/main
 
 ## Changelog
 
+### v0.1.1
+
+- **Tweak**: Updated footer to include the correct name
+
 ### v0.1.0
 
 - **Minor**: Add kestrel2.png to the left of the title in the header. kestrel2.png is specific to my blog repository. Having this file being hardcoded is technical debt.
