@@ -3,11 +3,11 @@
 This is a customisation of [Hugo PaperMod](https://adityatelange.github.io/hugo-PaperMod/). I'm keeping the original README documentation at the end of my additions.
 
 ## Keeping in sync with Hugo Papermod
-My customisations are on the custom/main branch. An upstream has been set as the master branch of hugo-PaperMod. To keep this fork in sync with updates from PaperMod, follow this procedure:
+My customisations are on the `main` branch. An upstream has been set as the master branch of hugo-PaperMod. To keep this fork in sync with updates from PaperMod, follow this procedure:
 
 ```bash
 git fetch upstream
-git checkout custom/main
+git checkout main
 git merge upstream/master
 ```
 
